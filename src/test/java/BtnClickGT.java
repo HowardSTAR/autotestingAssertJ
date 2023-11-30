@@ -10,7 +10,6 @@ import java.util.Objects;
 
 public class BtnClickGT extends TestSetup {
     private FrameFixture window = new FrameFixture(mainApp);;
-
     @Test
     public void testButtonClick() {
         // Находим кнопку по тексту
